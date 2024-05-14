@@ -1,0 +1,18 @@
+dataset ada di intents.json
+
+data training masuk ke data.pth
+
+untuk train run train.py dan masukan nama dataset di line 9 "with open('nama_dataset.json', 'r') as f:"
+
+Step 1 : run nltk_utils, uncomment nltk.download('punkt')
+
+Step 2 : run "pip install torch" in terminal
+
+Step 3 : run chat.py
+
+step for app.py
+
+Step 1 : run "pip install twilio"
+
+Step 2 : run app.py
+

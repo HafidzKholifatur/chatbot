@@ -1,0 +1,223 @@
+{
+    "intents":[
+        {
+            "tag":"salam",
+            "patterns":["Halo","Hai","Halo!","Hai!","Apa kabar?","Ada yang bisa saya bantu?"],
+            "responses":[
+                "Halo! Selamat datang! Ada yang bisa saya bantu?",
+                "Hai! Bagaimana kabarmu? Ada yang bisa saya bantu?",
+                "Halo! Apa kabar? Ada yang bisa saya bantu?",
+                "Hai! Senang bertemu denganmu! Ada yang bisa saya bantu?"
+            ]
+        },
+        {
+            "tag":"masalah",
+            "patterns":["Ponsel saya tidak berfungsi","Ponsel saya rusak","Butuh bantuan dengan ponsel saya","Ponsel saya bermasalah","Ponsel saya perlu diperbaiki"],
+            "responses":[
+                "Itu sangat disayangkan! Bisakah Anda memberitahu saya apakah ini masalah perangkat keras atau perangkat lunak?",
+                "Hal yang tidak mengenakkan! Apa masalahnya? Apakah masalahnya pada perangkat keras atau perangkat lunak?",
+                "Sayang sekali hal itu terjadi! Tolong beri tahu saya apakah masalahnya pada perangkat keras atau perangkat lunak."
+            ]
+        },
+        {
+            "tag":"perangkat_keras",
+            "patterns":[
+                "Saya memiliki masalah dengan perangkat keras",
+                "Ponsel saya memiliki masalah perangkat keras",
+                "Perangkat keras saya tidak berfungsi dengan baik",
+                "Saya pikir ini masalah perangkat keras"
+            ],
+            "responses":[
+                "Jika itu masalah perangkat keras, bisakah Anda menjelaskan masalah spesifik yang mungkin Anda hadapi?",
+                "Dapatkah Anda menggambarkan masalah spesifik yang mungkin Anda alami jika itu masalah perangkat keras?",
+                "Apakah Anda keberatan menjelaskan masalah spesifik yang mungkin Anda alami jika itu masalah perangkat keras?"
+            ]
+        },
+        {
+            "tag":"perangkat_lunak",
+            "patterns":[
+                "Saya pikir ini masalah perangkat lunak",
+                "Ponsel saya mungkin memiliki masalah perangkat lunak",
+                "Perangkat lunak saya tidak berfungsi dengan baik",
+                "Perangkat lunak saya bermasalah"
+            ],
+            "responses":[
+                "Jika itu masalah perangkat lunak, bisakah Anda secara spesifik memberi tahu saya masalah apa yang mungkin Anda alami.",
+                "Bisakah Anda menggambarkan masalah secara detail jika itu masalah perangkat lunak yang mungkin Anda alami?",
+                "Jika ada masalah perangkat lunak, bisakah Anda menjelaskan masalah secara detail."
+            ]
+        },
+        {
+            "tag":"ponsel_lambat",
+            "patterns":[
+                "Ponsel saya lambat",
+                "Ponsel saya mengalami lag",
+                "Ponsel saya sering mengalami lag",
+                "Aplikasi saya sering crash",
+                "Ponsel saya sering freezing"
+            ],
+            "responses":[
+                "Jika ponsel Anda lambat, Anda mungkin perlu menghapus beberapa aplikasi dan mencadangkan beberapa data ke tempat lain agar ponsel Anda menjadi lebih cepat.",
+                "Anda mungkin perlu menghapus beberapa aplikasi dari ponsel Anda jika berjalan lambat, dan Anda dapat mencadangkan beberapa data ke tempat lain untuk membuat ponsel Anda berjalan lebih cepat."
+            ]
+        },
+        {
+            "tag":"virus",
+            "patterns":[
+                "ponsel saya terinfeksi virus",
+                "ponsel saya telah diretas",
+                "ponsel saya memiliki aplikasi berbahaya",
+                "ponsel saya memiliki malware"
+            ],
+            "responses":[
+                "Jika ponsel Anda terinfeksi virus, silakan instal antivirus melalui toko aplikasi Anda dan izinkan untuk memindai aplikasi berbahaya."
+            ]
+
+        },
+        {
+            "tag":"backup",
+            "patterns":[
+                "Saya perlu mencadangkan data saya",
+                "Ponsel saya perlu dicadangkan",
+                "Saya perlu bantuan untuk mencadangkan data saya",
+                "Saya perlu memulihkan data saya"
+            ],
+            "responses":[
+                "Jangan khawatir, pusat layanan kami dilengkapi dengan baik dan memiliki profesional yang dapat mencadangkan atau memulihkan data Anda."
+            ]
+        },
+        {
+            "tag":"layar_rusak",
+            "patterns":[
+                "Layar saya rusak",
+                "Layar saya retak",
+                "Layar saya tidak berfungsi",
+                "Layar saya tidak fungsional"
+            ],
+            "responses":[
+                "Jika layar Anda rusak, harap segera hentikan penggunaan perangkat. Segera bawa perangkat Anda ke pusat layanan kami."
+            ]
+        },
+        {
+            "tag": "kerusakan_air",
+            "patterns":[
+                "Ponsel saya jatuh ke air",
+                "Saya menjatuhkan ponsel saya di danau",
+                "Ponsel saya memiliki kerusakan air"
+            ],
+            "responses":[
+                "Jika perangkat masih berfungsi, Anda beruntung. Dalam kebanyakan kasus, ini dapat menyebabkan korsleting yang akan merusak perangkat Anda."
+            ]
+        },
+        {
+            "tag": "kamera",
+            "patterns":[
+                "Kamera saya tidak berfungsi",
+                "Kamera saya rusak",
+                "Kamera saya tidak berfungsi dengan baik"
+            ],
+            "responses":[
+                "Jika kamera Anda tidak berfungsi, mungkin ada masalah perangkat lunak. Tetapi jika rusak akibat trauma fisik atau faktor eksternal, perbaikannya sangat mudah."
+            ]
+        },
+        {
+            "tag": "speaker",
+            "patterns":[
+                "Speaker saya rusak",
+                "Speaker saya tidak berfungsi",
+                "Speaker saya tidak berfungsi dengan baik"
+            ],
+            "responses":[
+                "Jika speaker Anda tidak berfungsi dengan baik, mungkin ada masalah perangkat lunak yang dapat Anda perbaiki dengan mudah."
+            ]
+        },
+        {
+            "tag":"mikrofon",
+            "patterns":[
+                "Mikrofon saya rusak",
+                "Mikrofon saya tidak berfungsi",
+                "Mikrofon saya tidak berfungsi dengan baik"
+            ],
+            "responses":[
+                "Jika mikrofon Anda tidak berfungsi dengan baik, mungkin ada masalah perangkat lunak yang dapat diperbaiki dengan memperbarui perangkat lunak."
+            ]
+        },
+        {
+            "tag":"charging",
+            "patterns":[
+                "Port pengisian saya rusak",
+                "Port pengisian saya tidak berfungsi",
+                "Ponsel saya tidak terisi",
+                "Ponsel saya tidak terisi"
+            ],
+            "responses":[
+                "Jika ponsel Anda tidak terisi, Anda bisa mencoba membersihkan port dengan kapas, atau bawa ponsel Anda ke pusat layanan kami."
+            ]
+        },
+        {
+            "tag":"sentuh_masalah",
+            "patterns":[
+                "Layar sentuh saya tidak berfungsi dengan baik",
+                "Layar sentuh saya berkedip",
+                "Layar sentuh saya tidak berfungsi"
+            ],
+            "responses":[
+                "Jika layar sentuh Anda tidak berfungsi dengan baik, silakan kunjungi pusat layanan kami. Masalah ini bisa disebabkan oleh berbagai faktor, baik fisik maupun perangkat lunak."
+            ]
+        },
+        {
+            "tag":"pusat_layanan",
+            "patterns":[
+                "Di mana pusat layanan",
+                "Di mana kita bisa bertemu",
+                "Di mana lokasi Anda",
+                "Di mana saya bisa memperbaiki ponsel saya"
+            ],
+            "responses":[
+                "Pusat layanan kami terletak di Jalan ABC, Kota XXX, Provinsi YYY. Kami buka dari pukul 08.00 hingga 22.00 setiap hari. Semua merek ponsel utama dapat diperbaiki di pusat layanan kami. Hubungi kami di +62 XXXXXXXXX atau kunjungi www.abcxyzsample.com"
+            ]
+        },
+        {
+            "tag":"tombol_daya",
+            "patterns":[
+                "Tombol daya saya tidak berfungsi dengan baik",
+                "Tombol daya rusak"
+            ],
+            "responses":[
+                "Jika tombol daya Anda tidak berfungsi dengan baik, itu masalah kecil yang bisa kami perbaiki dengan mudah. Biaya perbaikan juga sangat rendah."
+            ]
+        },
+        {
+            "tag":"tombol_volume",
+            "patterns":[
+                "Tombol volume saya rusak",
+                "Tombol volume tidak berfungsi dengan baik"
+            ],
+            "responses":[
+                "Jika tombol volume Anda tidak berfungsi dengan baik, itu masalah kecil yang bisa kami perbaiki dengan mudah. Biaya perbaikan juga sangat rendah."
+            ]
+        },
+        {
+            "tag":"pelindung_layar",
+            "patterns":[
+                "Ganti kaca pelindung saya",
+                "Kaca pelindung saya rusak",
+                "Kaca pelindung saya retak"
+            ],
+            "responses":[
+                "Kami dapat mengganti kaca pelindung Anda dengan mudah. Silakan bawa perangkat Anda ke pusat layanan kami."
+            ]
+        },
+        {
+            "tag":"case",
+            "patterns":[
+                "Case saya rusak",
+                "Case saya perlu diganti",
+                "Saya butuh case baru"
+            ],
+            "responses":[ 
+                "Kami dapat mengganti case ponsel Anda dengan mudah. Kami memiliki berbagai macam case ponsel yang tersedia di toko kami!"
+            ]
+        }
+    ]
+}
