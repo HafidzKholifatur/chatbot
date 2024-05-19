@@ -2,7 +2,7 @@
     "intents":[
         {
             "tag":"salam",
-            "patterns":["Halo","Hai","Halo!","Hai!","Apa kabar?","Ada yang bisa saya bantu?"],
+            "patterns":["Halo","Hai","Halo!","Hai!","Apa kabar?","Ada yang bisa saya bantu?","Hey","Helo","Hey!","Hei","Hei!","Assalamu'alaikum","Assalamualaikum","Permisi"],
             "responses":[
                 "Halo! Selamat datang! Ada yang bisa saya bantu?",
                 "Hai! Bagaimana kabarmu? Ada yang bisa saya bantu?",
@@ -11,212 +11,367 @@
             ]
         },
         {
-            "tag":"masalah",
-            "patterns":["Ponsel saya tidak berfungsi","Ponsel saya rusak","Butuh bantuan dengan ponsel saya","Ponsel saya bermasalah","Ponsel saya perlu diperbaiki"],
+            "tag":"profil_sekolah",
+            "patterns":[
+                "Saya ingin tahu mengenai MI Attaqwa 28",
+                "Apa itu MI Attaqwa 28?",
+                "Informasi umum sekolah",
+                "Informasi MI Attaqwa 28",
+                "Butuh Informasi MI Attaqwa 28",
+                "Berikan saya informasi umum MI Attaqwa 28",
+                "Profil MI Attaqwa 28",
+                "Informasi sekolah",
+                "Informasi MI Attaqwa",
+                "Informasi sekolah MI Attaqwa 28",
+                "Profil MI Attaqwa",
+                "Profil sekolah"
+            ],
             "responses":[
-                "Itu sangat disayangkan! Bisakah Anda memberitahu saya apakah ini masalah perangkat keras atau perangkat lunak?",
-                "Hal yang tidak mengenakkan! Apa masalahnya? Apakah masalahnya pada perangkat keras atau perangkat lunak?",
-                "Sayang sekali hal itu terjadi! Tolong beri tahu saya apakah masalahnya pada perangkat keras atau perangkat lunak."
+                "MI Attaqwa 28, didirikan oleh Yayasan Attaqwa pada tahun 1991, adalah sebuah Madrasah Ibtidaiyah yang menggabungkan pendidikan agama, umum, dan akhlak. Mengikuti kurikulum pemerintah dengan tambahan mata pelajaran agama, sekolah ini bertujuan mengajarkan kaidah-kaidah Islam kepada siswa-siswinya. Selain itu, MI Attaqwa 28 menawarkan berbagai kegiatan ekstrakurikuler untuk mendukung pembelajaran di luar kelas. Sekolah ini terus berupaya meningkatkan fasilitas dan kinerjanya demi memberikan pengajaran yang lebih baik di masa depan."
             ]
         },
         {
-            "tag":"perangkat_keras",
+            "tag":"informasi_pendaftaran",
             "patterns":[
-                "Saya memiliki masalah dengan perangkat keras",
-                "Ponsel saya memiliki masalah perangkat keras",
-                "Perangkat keras saya tidak berfungsi dengan baik",
-                "Saya pikir ini masalah perangkat keras"
+                "Saya ingin tahu prosedur pendaftaran",
+                "Beritahu saya prosedur pendaftaran",
+                "Bagaimana prosedur pendaftaran di MI Attaqwa 28?",
+                "Bagaimana prosedur pendaftaran?",
+                "Prosedur pendaftaran MI Attaqwa 28 bagaimana?",
+                "Pendaftaran di MI Attaqwa seperti apa?",
+                "Cara mendaftar di MI Attaqwa 28",
+                "Cara daftar MI Attaqwa 28",
+                "Bagaimana cara daftar di MI Attaqwa 28?",
+                "Prosedur untuk daftar seperti apa?",
+                "Prosedur pendaftaran MI Attaqwa 28",
+                "Prosedur pendaftaran MI Attaqwa",
+                "Prosedur pendaftaran",
+                "Pendaftaran",
+                "Informasi pendaftaran"
             ],
             "responses":[
-                "Jika itu masalah perangkat keras, bisakah Anda menjelaskan masalah spesifik yang mungkin Anda hadapi?",
-                "Dapatkah Anda menggambarkan masalah spesifik yang mungkin Anda alami jika itu masalah perangkat keras?",
-                "Apakah Anda keberatan menjelaskan masalah spesifik yang mungkin Anda alami jika itu masalah perangkat keras?"
+                "Untuk mendaftar sebagai siswa/i baru di MI Attaqwa 28, Anda perlu mengikuti prosedur berikut: \n\n1. *Pengambilan Formulir Pendaftaran:* Formulir dapat diambil di kantor administrasi MI Attaqwa 28 atau diunduh dari situs resmi sekolah.\n2. *Pengisian Berkas Pendaftaran:* Isi formulir dengan lengkap dan benar. Sertakan juga dokumen-dokumen pendukung seperti fotokopi akta kelahiran, kartu keluarga, dan pas foto terbaru.\n3. *Pengembalian Formulir:* Kembalikan formulir yang telah diisi beserta dokumen pendukung ke kantor administrasi MI Attaqwa 28.\n4. *Pembayaran Biaya Pendaftaran:* Lakukan pembayaran biaya pendaftaran sesuai ketentuan yang berlaku. Rincian biaya dapat dilihat di kantor atau situs resmi sekolah.\n5. *Tes Seleksi:* Siswa/i baru akan mengikuti tes seleksi yang meliputi tes akademik dan wawancara.\n6. *Pengumuman Hasil Seleksi:* Hasil tes seleksi akan diumumkan melalui papan pengumuman sekolah dan/atau situs resmi MI Attaqwa 28.\n7. *Pendaftaran Ulang:* Siswa/i yang dinyatakan lulus tes seleksi harus melakukan pendaftaran ulang dan melengkapi administrasi yang diperlukan.\n\nUntuk informasi lebih lanjut, silakan kunjungi kantor administrasi MI Attaqwa 28 atau situs resmi sekolah."
+                
             ]
         },
         {
-            "tag":"perangkat_lunak",
-            "patterns":[
-                "Saya pikir ini masalah perangkat lunak",
-                "Ponsel saya mungkin memiliki masalah perangkat lunak",
-                "Perangkat lunak saya tidak berfungsi dengan baik",
-                "Perangkat lunak saya bermasalah"
+            "tag": "biaya_pendaftaran",
+            "patterns": [
+                "Berapa biaya pendaftaran MI Attaqwa 28?",
+                "Biaya yang dibutuhkan saat pendaftaran MI Attaqwa berapa?",
+                "Berapa biaya masuk di MI Attaqwa 28?",
+                "Biaya pendaftaran di MI Attaqwa 28 berapa?",
+                "Tolong beritahu biaya pendaftaran MI Attaqwa 28",
+                "Saya ingin tahu biaya pendaftaran MI Attaqwa 28",
+                "Biaya untuk daftar di MI Attaqwa 28 berapa?",
+                "Apa saja biaya pendaftaran di MI Attaqwa 28?",
+                "Biaya pendaftaran MI Attaqwa",
+                "Biaya pendaftaran",
+                "Biaya daftar",
+                "Biaya"
             ],
-            "responses":[
-                "Jika itu masalah perangkat lunak, bisakah Anda secara spesifik memberi tahu saya masalah apa yang mungkin Anda alami.",
-                "Bisakah Anda menggambarkan masalah secara detail jika itu masalah perangkat lunak yang mungkin Anda alami?",
-                "Jika ada masalah perangkat lunak, bisakah Anda menjelaskan masalah secara detail."
+            "responses": [
+                "Biaya pendaftaran di MI Attaqwa 28 adalah sebagai berikut: \n\n1. *Biaya Formulir :* Rp 150,000\n2. *Biaya Tes Seleksi:* Rp 200,000\n3. *Biaya Pendaftaran:* Rp 100,000\n\nTotal biaya pendaftaran adalah Rp 450,000. Untuk informasi lebih lanjut mengenai biaya lainnya, silakan mengunjungi kantor administrasi MI Attaqwa 28 atau situs resmi sekolah.",
+                "Untuk mendaftar di MI Attaqwa 28, berikut rincian biaya yang perlu dibayar: \n\n1. *Formulir :* Rp 150,000\n2. *Tes Seleksi:* Rp 200,000\n3. *Biaya Pendaftaran:* Rp 100,000\n\nTotal biaya yang dibutuhkan adalah Rp 450,000. Untuk informasi detail lebih lanjut, kunjungi kantor administrasi atau situs resmi MI Attaqwa 28.",
+                "Biaya yang diperlukan untuk pendaftaran di MI Attaqwa 28 meliputi: \n\n1. *Formulir :* Rp 150,000\n2. *Tes Seleksi:* Rp 200,000\n3. * Biaya Pendaftaran:* Rp 100,000\n\nTotal keseluruhan biaya adalah Rp 450,000. Informasi lebih rinci dapat diperoleh di kantor administrasi atau di situs resmi MI Attaqwa 28.",
+                "Biaya pendaftaran MI Attaqwa 28 adalah sebagai berikut: \n\n1. *Formulir :* Rp 150,000\n2. *Tes Seleksi:* Rp 200,000\n3. *Biaya Pendaftaran:* Rp 100,000\n\nSehingga total biaya pendaftaran adalah Rp 450,000. Untuk keterangan lebih lanjut, silakan mengunjungi kantor administrasi atau situs resmi MI Attaqwa 28."
             ]
         },
         {
-            "tag":"ponsel_lambat",
-            "patterns":[
-                "Ponsel saya lambat",
-                "Ponsel saya mengalami lag",
-                "Ponsel saya sering mengalami lag",
-                "Aplikasi saya sering crash",
-                "Ponsel saya sering freezing"
+            "tag": "jadwal_pendaftaran",
+            "patterns": [
+                "Kapan pendaftaran MI Attaqwa 28 dibuka?",
+                "Batas waktu pendaftaran MI Attaqwa 28 sampai kapan?",
+                "Pendaftaran MI Attaqwa 28 dimulai kapan?",
+                "Tanggal Pendaftaran",
+                "Pendaftaran dibuka tanggal berapa?",
+                "Sampai kapan pendaftaran di MI Attaqwa 28?",
+                "Kapan waktu pendaftaran di MI Attaqwa 28?",
+                "Waktu pendaftaran",
+                "Jadwal pendaftaran MI Attaqwa 28 kapan?",
+                "Kapan mulai dan berakhirnya pendaftaran MI Attaqwa 28?",
+                "Tanggal berapa pendaftaran MI Attaqwa 28 dibuka?",
+                "Tanggal berapa pendaftaran dibuka?",
+                "Kapan waktu terakhir pendaftaran?",
+                "Jadwal pendaftaran MI Attaqwa 28",
+                "Jadwal pendaftaran siswa baru",
+                "Jadwal pendaftaran"
             ],
-            "responses":[
-                "Jika ponsel Anda lambat, Anda mungkin perlu menghapus beberapa aplikasi dan mencadangkan beberapa data ke tempat lain agar ponsel Anda menjadi lebih cepat.",
-                "Anda mungkin perlu menghapus beberapa aplikasi dari ponsel Anda jika berjalan lambat, dan Anda dapat mencadangkan beberapa data ke tempat lain untuk membuat ponsel Anda berjalan lebih cepat."
+            "responses": [
+                "Pendaftaran MI Attaqwa 28 dibuka tanggal 27 Januari. Tes seleksi akan dilaksanakan pada 3 Februari, dan hasil seleksi akan diumumkan satu minggu setelah tes dilakukan.",
+                "Pendaftaran di MI Attaqwa 28 dilakukan pada 27 Januari. Tes seleksi diadakan pada 3 Februari, dan hasilnya diumumkan satu minggu setelah tes dilakukan.",
+                "Jadwal pendaftaran MI Attaqwa 28 adalah pada 27 Januari. Tes seleksi akan dilakukan pada 3 Februari, dan hasilnya diumumkan satu minggu setelah tes dilakukan.",
+                "Anda dapat mendaftar di MI Attaqwa 28  pada tanggal 27 Januari. Tes seleksi akan diadakan pada 3 Februari, dan hasil seleksi diumumkan pada satu minggu setelah tes dilakukan.",
+                "Pendaftaran MI Attaqwa 28 berlangsung pada 27 Januari. Tes seleksi dijadwalkan 3 Februari, dan hasilnya akan diumumkan satu minggu setelah tes dilakukan."
             ]
         },
         {
-            "tag":"virus",
-            "patterns":[
-                "ponsel saya terinfeksi virus",
-                "ponsel saya telah diretas",
-                "ponsel saya memiliki aplikasi berbahaya",
-                "ponsel saya memiliki malware"
+            "tag": "kontak_sekolah",
+            "patterns": [
+                "Bagaimana cara menghubungi MI Attaqwa 28?",
+                "Alamat MI Attaqwa 28 di mana?",
+                "Nomor telepon MI Attaqwa 28 berapa?",
+                "Dimana lokasi MI Attaqwa 28?",
+                "Saya ingin tahu alamat MI Attaqwa 28",
+                "Kontak MI Attaqwa 28 bagaimana?",
+                "Jam operasional MI Attaqwa 28 kapan?",
+                "Bagaimana cara saya bisa menghubungi MI Attaqwa 28?",
+                "Di mana lokasi MI Attaqwa 28?",
+                "Bisakah saya mendapatkan nomor telepon MI Attaqwa 28?",
+                "Bagaimana cara menghubungi MI Attaqwa 28 melalui telepon?",
+                "Kapan jam operasional MI Attaqwa 28?",
+                "Di mana MI Attaqwa 28 berada?",
+                "Apa nomor telepon MI Attaqwa 28 yang aktif?",
+                "Kontak MI Attaqwa 28",
+                "Alamat Sekolah",
+                "Kontak Sekolah",
+                "Kontak MI Attaqwa",
+                "Alamat"
             ],
-            "responses":[
-                "Jika ponsel Anda terinfeksi virus, silakan instal antivirus melalui toko aplikasi Anda dan izinkan untuk memindai aplikasi berbahaya."
-            ]
-
-        },
-        {
-            "tag":"backup",
-            "patterns":[
-                "Saya perlu mencadangkan data saya",
-                "Ponsel saya perlu dicadangkan",
-                "Saya perlu bantuan untuk mencadangkan data saya",
-                "Saya perlu memulihkan data saya"
-            ],
-            "responses":[
-                "Jangan khawatir, pusat layanan kami dilengkapi dengan baik dan memiliki profesional yang dapat mencadangkan atau memulihkan data Anda."
-            ]
-        },
-        {
-            "tag":"layar_rusak",
-            "patterns":[
-                "Layar saya rusak",
-                "Layar saya retak",
-                "Layar saya tidak berfungsi",
-                "Layar saya tidak fungsional"
-            ],
-            "responses":[
-                "Jika layar Anda rusak, harap segera hentikan penggunaan perangkat. Segera bawa perangkat Anda ke pusat layanan kami."
+            "responses": [
+                "Anda dapat menghubungi MI Attaqwa 28 di alamat berikut: Kp. Cakung Payangan RT01 RW05 Jatiasih, Jl. Wibawa Mukti II, RT.001/RW.005, Jatisari, Kec. Jatiasih, Kota Bks, Jawa Barat 17426. Nomor telepon: 085163635223. Jam operasional mulai dari jam 06.30 hingga 17.30.",
+                "Lokasi MI Attaqwa 28 berada di Kp. Cakung Payangan RT01 RW05 Jatiasih, Jl. Wibawa Mukti II, RT.001/RW.005, Jatisari, Kec. Jatiasih, Kota Bks, Jawa Barat 17426. Nomor telepon yang dapat dihubungi: 085163635223. Jam operasional sekolah adalah dari 06.30 hingga 17.30.",
+                "Untuk menghubungi MI Attaqwa 28, Anda bisa datang ke alamat Kp. Cakung Payangan RT01 RW05 Jatiasih, Jl. Wibawa Mukti II, RT.001/RW.005, Jatisari, Kec. Jatiasih, Kota Bks, Jawa Barat 17426 atau menghubungi nomor telepon 085163635223. Jam operasional sekolah adalah dari pukul 06.30 hingga 17.30.",
+                "Alamat MI Attaqwa 28 adalah di Kp. Cakung Payangan RT01 RW05 Jatiasih, Jl. Wibawa Mukti II, RT.001/RW.005, Jatisari, Kec. Jatiasih, Kota Bks, Jawa Barat 17426. Nomor telepon yang aktif adalah 085163635223, dengan jam operasional dari 06.30 hingga 17.30."
             ]
         },
         {
-            "tag": "kerusakan_air",
-            "patterns":[
-                "Ponsel saya jatuh ke air",
-                "Saya menjatuhkan ponsel saya di danau",
-                "Ponsel saya memiliki kerusakan air"
+            "tag": "kurikulum_sekolah",
+            "patterns": [
+                "Mata pelajaran",
+                "Apa saja mata pelajaran di MI Attaqwa 28?",
+                "Bagaimana kurikulum di MI Attaqwa 28?",
+                "Kurikulum di MI Attaqwa 28?",
+                "Apakah ada pelajaran agama tambahan di MI Attaqwa 28?",
+                "Mata pelajaran apa saja yang diajarkan di MI Attaqwa 28?",
+                "Pelajaran di MI Attaqwa 28 seperti apa?",
+                "Apakah ada pelajaran umum di MI Attaqwa 28?",
+                "Pelajaran agama di MI Attaqwa 28 apa saja?",
+                "Kurikulum MI Attaqwa 28 mencakup apa saja?",
+                "Apa kurikulum yang digunakan di MI Attaqwa 28?",
+                "Bagaimana struktur kurikulum di MI Attaqwa 28?",
+                "Apakah ada pelajaran Al-Quran di MI Attaqwa 28?",
+                "Pelajaran umum apa yang diajarkan di MI Attaqwa 28?",
+                "Kurikulum MI Attaqwa 28",
+                "Kurikulum sekolah",
+                "Kurikulum"
             ],
-            "responses":[
-                "Jika perangkat masih berfungsi, Anda beruntung. Dalam kebanyakan kasus, ini dapat menyebabkan korsleting yang akan merusak perangkat Anda."
+            "responses": [
+                "Kurikulum di MI Attaqwa 28 mencakup mata pelajaran umum dan agama. Mata pelajaran umum meliputi Matematika, Bahasa Indonesia, Ilmu Pengetahuan Alam (IPA), Ilmu Pengetahuan Sosial (IPS), dan Pendidikan Kewarganegaraan (PKn). Mata pelajaran agama meliputi Al-Quran, Hadis, Fiqih, Aqidah Akhlak, dan Sejarah Kebudayaan Islam.",
+                "MI Attaqwa 28 menggabungkan kurikulum umum dan agama. Mata pelajaran umum yang diajarkan antara lain Matematika, Bahasa Indonesia, IPA, IPS, dan PKn. Sementara itu, mata pelajaran agama meliputi Al-Quran, Hadis, Fiqih, Aqidah Akhlak, dan Sejarah Kebudayaan Islam.",
+                "Di MI Attaqwa 28, siswa belajar mata pelajaran umum seperti Matematika, Bahasa Indonesia, IPA, IPS, dan PKn. Selain itu, ada juga pelajaran agama seperti Al-Quran, Hadis, Fiqih, Aqidah Akhlak, dan Sejarah Kebudayaan Islam.",
+                "MI Attaqwa 28 menerapkan kurikulum yang mencakup pelajaran umum dan agama. Mata pelajaran umum meliputi Matematika, Bahasa Indonesia, IPA, IPS, dan PKn. Mata pelajaran agama meliputi Al-Quran, Hadis, Fiqih, Aqidah Akhlak, dan Sejarah Kebudayaan Islam.",
+                "Kurikulum di MI Attaqwa 28 terdiri dari mata pelajaran umum dan agama. Mata pelajaran umum meliputi Matematika, Bahasa Indonesia, IPA, IPS, dan PKn. Mata pelajaran agama yang diajarkan meliputi Al-Quran, Hadis, Fiqih, Aqidah Akhlak, dan Sejarah Kebudayaan Islam.",
+                "MI Attaqwa 28 menawarkan kurikulum yang meliputi pelajaran umum dan agama. Mata pelajaran umum yang diajarkan adalah Matematika, Bahasa Indonesia, IPA, IPS, dan PKn. Pelajaran agama mencakup Al-Quran, Hadis, Fiqih, Aqidah Akhlak, dan Sejarah Kebudayaan Islam."
             ]
         },
         {
-            "tag": "kamera",
-            "patterns":[
-                "Kamera saya tidak berfungsi",
-                "Kamera saya rusak",
-                "Kamera saya tidak berfungsi dengan baik"
+            "tag": "ekstrakurikuler_sekolah",
+            "patterns": [
+                "Kegiatan ekstrakurikuler apa saja yang ada di MI Attaqwa 28?",
+                "Apakah ada kegiatan ekstrakurikuler di MI Attaqwa 28?",
+                "Jenis-jenis ekstrakurikuler di MI Attaqwa 28 apa saja?",
+                "Apa saja kegiatan ekstrakurikuler di MI Attaqwa 28?",
+                "Ekstrakurikuler di MI Attaqwa 28 apa saja?",
+                "Aktivitas ekstrakurikuler di MI Attaqwa 28 ada apa saja?",
+                "Apakah MI Attaqwa 28 memiliki kegiatan ekstrakurikuler?",
+                "Ekstrakurikuler di MI Attaqwa 28 seperti apa?",
+                "Bisakah saya tahu kegiatan ekstrakurikuler di MI Attaqwa 28?",
+                "Apakah ada klub atau kegiatan di luar jam pelajaran di MI Attaqwa 28?",
+                "Ekstrakulikuler MI Attaqwa",
+                "Ekstrakulikuler",
+                "Kegitan Ekskul",
+                "Ekskul MI Attaqwa 28"
             ],
-            "responses":[
-                "Jika kamera Anda tidak berfungsi, mungkin ada masalah perangkat lunak. Tetapi jika rusak akibat trauma fisik atau faktor eksternal, perbaikannya sangat mudah."
+            "responses": [
+                "MI Attaqwa 28 menawarkan berbagai kegiatan ekstrakurikuler seperti Pramuka, Pencak Silat, Paskibra, Futsal, dan Basket. Kegiatan ini bertujuan untuk mengembangkan minat dan bakat siswa di berbagai bidang.",
+                "Di MI Attaqwa 28, siswa dapat mengikuti kegiatan ekstrakurikuler seperti Pramuka, Pencak Silat, Paskibra, Futsal, Basket, dan Olahraga seperti sepak bola dan bulu tangkis.",
+                "MI Attaqwa 28 memiliki berbagai kegiatan ekstrakurikuler termasuk Pramuka, Pencak Silat, Paskibra, Futsal, Basket, dan berbagai jenis olahraga seperti sepak bola dan bulu tangkis.",
+                "Beragam kegiatan ekstrakurikuler di MI Attaqwa 28 mencakup Pramuka, Pencak Silat, Paskibra, Futsal, Basket, serta olahraga seperti sepak bola dan bulu tangkis.",
+                "Untuk mengembangkan minat dan bakat siswa, MI Attaqwa 28 menyediakan kegiatan ekstrakurikuler seperti Pramuka, Pencak Silat, Paskibra, Futsal, Basket, dan berbagai olahraga.",
+                "MI Attaqwa 28 menyelenggarakan berbagai kegiatan ekstrakurikuler termasuk Pramuka, Pencak Silat, Paskibra, Futsal, Basket, serta olahraga seperti sepak bola dan bulu tangkis.",
+                "Di MI Attaqwa 28, siswa dapat memilih dari berbagai kegiatan ekstrakurikuler seperti Pramuka, Pencak Silat, Paskibra, Futsal, Basket, dan olahraga seperti sepak bola dan bulu tangkis.",
+                "Ekstrakurikuler di MI Attaqwa 28 meliputi Pramuka, Pencak Silat, Paskibra, Futsal, Basket, serta berbagai olahraga seperti sepak bola dan bulu tangkis."
             ]
         },
         {
-            "tag": "speaker",
-            "patterns":[
-                "Speaker saya rusak",
-                "Speaker saya tidak berfungsi",
-                "Speaker saya tidak berfungsi dengan baik"
+            "tag": "fasilitas_sekolah",
+            "patterns": [
+                "Fasilitas apa saja yang ada di MI Attaqwa 28?",
+                "Apakah MI Attaqwa 28 memiliki fasilitas?",
+                "Apa saja fasilitas yang tersedia di MI Attaqwa 28?",
+                "Fasilitas pendukung di MI Attaqwa 28 seperti apa?",
+                "Apakah ada perpustakaan di MI Attaqwa 28?",
+                "Fasilitas olahraga di MI Attaqwa 28 bagaimana?",
+                "Apa saja fasilitas yang disediakan di MI Attaqwa 28?",
+                "Bagaimana dengan fasilitas komputer di MI Attaqwa 28?",
+                "Fasilitas apa yang bisa saya temukan di MI Attaqwa 28?",
+                "Apakah MI Attaqwa 28 dilengkapi dengan laboratorium?",
+                "Fasilitas sekolah apa saja yang ada?",
+                "Fasilitas sekolah yang ada",
+                "Fasilitas sekolah",
+                "Fasilitas di MI Attaqwa 28",
+                "Fasilitas MI Attaqwa 28",
+                "Bagaimana dengan fasilitas ruang kelas di MI Attaqwa 28?",
+                "Fasilitas"
             ],
-            "responses":[
-                "Jika speaker Anda tidak berfungsi dengan baik, mungkin ada masalah perangkat lunak yang dapat Anda perbaiki dengan mudah."
+            "responses": [
+                "MI Attaqwa 28 dilengkapi dengan berbagai fasilitas yang mendukung proses belajar mengajar, termasuk perpustakaan, laboratorium komputer, ruang kelas yang nyaman, lapangan olahraga, dan aula.",
+                "Fasilitas yang tersedia di MI Attaqwa 28 mencakup perpustakaan, laboratorium komputer, ruang kelas yang nyaman, lapangan olahraga, dan aula untuk kegiatan ekstrakurikuler dan acara sekolah.",
+                "MI Attaqwa 28 menyediakan fasilitas seperti perpustakaan dengan koleksi buku yang lengkap, laboratorium komputer, ruang kelas yang nyaman, lapangan olahraga, dan aula untuk berbagai kegiatan sekolah.",
+                "Fasilitas di MI Attaqwa 28 mencakup perpustakaan, laboratorium komputer, ruang kelas yang nyaman, lapangan olahraga, dan aula untuk berbagai kegiatan ekstrakurikuler dan acara sekolah.",
+                "MI Attaqwa 28 memiliki fasilitas yang lengkap, termasuk perpustakaan dengan koleksi buku yang variatif, laboratorium komputer, ruang kelas yang nyaman, lapangan olahraga, dan aula untuk kegiatan sekolah.",
+                "Fasilitas yang disediakan di MI Attaqwa 28 meliputi perpustakaan, laboratorium komputer, ruang kelas yang nyaman, lapangan olahraga, dan aula untuk berbagai kegiatan ekstrakurikuler dan acara sekolah.",
+                "Di MI Attaqwa 28, siswa dapat menikmati fasilitas seperti perpustakaan yang lengkap, laboratorium komputer, ruang kelas yang nyaman, lapangan olahraga, dan aula untuk berbagai kegiatan sekolah.",
+                "MI Attaqwa 28 dilengkapi dengan fasilitas yang memadai untuk mendukung proses belajar mengajar, termasuk perpustakaan, laboratorium komputer, ruang kelas yang nyaman, lapangan olahraga, dan aula."
             ]
         },
         {
-            "tag":"mikrofon",
-            "patterns":[
-                "Mikrofon saya rusak",
-                "Mikrofon saya tidak berfungsi",
-                "Mikrofon saya tidak berfungsi dengan baik"
+            "tag": "persyaratan_pendaftaran",
+            "patterns": [
+                "Apa saja syarat untuk mendaftar?",
+                "Dokumen apa yang diperlukan untuk pendaftaran?",
+                "Syarat pendaftaran MI Attaqwa 28 apa saja?",
+                "Apa persyaratan yang harus dipenuhi untuk mendaftar di MI Attaqwa 28?",
+                "Dokumen apa saja yang perlu disiapkan untuk pendaftaran?",
+                "Apakah ada syarat khusus untuk mendaftar di MI Attaqwa 28?",
+                "Apa yang dibutuhkan untuk mendaftar?",
+                "Syarat apa yang harus saya penuhi untuk bisa masuk ke MI Attaqwa 28?",
+                "Apa saja yang harus dipersiapkan untuk mendaftar?",
+                "Bisakah saya tahu persyaratan pendaftaran di MI Attaqwa 28?",
+                "Persyaratan pendaftaran siswa baru",
+                "Dokumen pendaftaran MI Attaqwa 28",
+                "Dokumen untuk pendaftaran siswa baru apa saja",
+                "Syarat pendaftaran MI Attaqwa 28",
+                "Syarat untuk pendaftaran",
+                "Dokumen pendaftaran yang dibutuhkan",
+                "Dokumen Pendaftaran"
             ],
-            "responses":[
-                "Jika mikrofon Anda tidak berfungsi dengan baik, mungkin ada masalah perangkat lunak yang dapat diperbaiki dengan memperbarui perangkat lunak."
+            "responses": [
+                "Persyaratan pendaftaran di MI Attaqwa 28 meliputi: \n\n 1. Fotokopi akta kelahiran. \n 2. Fotokopi kartu keluarga. \n 3. Pas foto terbaru ukuran 3x4 sebanyak 2 lembar. \n 4. Fotocopy ijazah/sertifikat TK/RA (bagi yang memiliki). \n 5. Mengisi formulir pendaftaran yang tersedia di sekolah.",
+                "Untuk mendaftar di MI Attaqwa 28, siswa perlu menyiapkan dokumen antara lain: \n\n 1. Fotokopi akta kelahiran. \n 2. Fotokopi kartu keluarga. \n 3. Pas foto terbaru ukuran 3x4 sebanyak 2 lembar. \n 4. Fotocopy ijazah/sertifikat TK/RA (bagi yang memiliki). \n 5. Mengisi formulir pendaftaran yang disediakan oleh sekolah.",
+                "Dokumen yang diperlukan untuk pendaftaran di MI Attaqwa 28 meliputi: \n\n 1. Fotokopi akta kelahiran. \n 2. Fotokopi kartu keluarga. \n 3. Pas foto terbaru ukuran 3x4 sebanyak 2 lembar. \n 4. Fotocopy ijazah/sertifikat TK/RA (bagi yang memiliki). \n 5. Mengisi formulir pendaftaran.",
+                "Syarat pendaftaran di MI Attaqwa 28 meliputi: \n\n 1. Fotokopi akta kelahiran. \n 2. Fotokopi kartu keluarga. \n 3. Pas foto terbaru ukuran 3x4 sebanyak 2 lembar. \n 4. Fotocopy ijazah/sertifikat TK/RA (bagi yang memiliki). \n 5. Mengisi formulir pendaftaran yang tersedia."
             ]
         },
         {
-            "tag":"charging",
-            "patterns":[
-                "Port pengisian saya rusak",
-                "Port pengisian saya tidak berfungsi",
-                "Ponsel saya tidak terisi",
-                "Ponsel saya tidak terisi"
+            "tag": "hasil_seleksi",
+            "patterns": [
+                "Kapan pengumuman hasil seleksi?",
+                "Bagaimana cara mengetahui hasil seleksi?",
+                "Kapan pengumuman hasil penerimaan?",
+                "Hasil seleksi di kapan diumumkan?",
+                "Apakah sudah ada pengumuman hasil seleksi?",
+                "Kapan saya bisa mengetahui hasil seleksi?",
+                "Bagaimana cara mengecek hasil seleksi di MI Attaqwa 28?",
+                "Kapan waktu pengumuman hasil penerimaan di MI Attaqwa 28?",
+                "Bagaimana cara saya mengetahui apakah anak saya diterima di MI Attaqwa 28?",
+                "Sudah ada kabar mengenai hasil seleksi di MI Attaqwa 28?",
+                "Kabar mengenai hasil seleksi",
+                "Pengumuman hasil seleksi",
+                "Hasil seleksi"
             ],
-            "responses":[
-                "Jika ponsel Anda tidak terisi, Anda bisa mencoba membersihkan port dengan kapas, atau bawa ponsel Anda ke pusat layanan kami."
+            "responses": [
+                "Pengumuman hasil seleksi di MI Attaqwa 28 akan dilakukan pada pertengahan bulan Juli setelah pelaksanaan tes seleksi.",
+                "Hasil seleksi di MI Attaqwa 28 akan diumumkan pada pertengahan bulan Juli setelah dilakukan tes seleksi.",
+                "Pengumuman hasil penerimaan di MI Attaqwa 28 akan dilakukan pada pertengahan bulan Juli setelah pelaksanaan tes seleksi.",
+                "Hasil seleksi di MI Attaqwa 28 akan diumumkan pada pertengahan bulan Juli setelah tes seleksi selesai dilaksanakan.",
+                "Pengumuman hasil seleksi di MI Attaqwa 28 akan diumumkan pada pertengahan bulan Juli setelah pelaksanaan tes seleksi selesai.",
+                "Hasil seleksi di MI Attaqwa 28 akan diumumkan pada pertengahan bulan Juli setelah tes seleksi selesai dilaksanakan.",
+                "Pengumuman hasil penerimaan di MI Attaqwa 28 akan dilakukan pada pertengahan bulan Juli setelah tes seleksi selesai dilaksanakan.",
+                "Hasil seleksi di MI Attaqwa 28 akan diumumkan pada pertengahan bulan Juli setelah tes seleksi selesai dilaksanakan.",
+                "Pengumuman hasil seleksi di MI Attaqwa 28 akan dilakukan pada pertengahan bulan Juli setelah tes seleksi selesai dilaksanakan.",
+                "Hasil seleksi di MI Attaqwa 28 akan diumumkan pada pertengahan bulan Juli setelah tes seleksi selesai dilaksanakan."
             ]
         },
         {
-            "tag":"sentuh_masalah",
-            "patterns":[
-                "Layar sentuh saya tidak berfungsi dengan baik",
-                "Layar sentuh saya berkedip",
-                "Layar sentuh saya tidak berfungsi"
+            "tag": "kebijakan",
+            "patterns": [
+                "Apa kebijakan sekolah di MI Attaqwa 28?",
+                "Bagaimana aturan di MI Attaqwa 28?",
+                "Kebijakan MI Attaqwa 28 seperti apa?",
+                "Apa saja aturan yang diterapkan?",
+                "Bagaimana kebijakan disiplin di MI Attaqwa 28?",
+                "Kebijakan sekolah yang berlaku",
+                "Beritahu kebijakan sekolah",
+                "Kebijakan yang berlaku",
+                "Kebijakan MI Attaqwa",
+                "Kebijakan"
             ],
-            "responses":[
-                "Jika layar sentuh Anda tidak berfungsi dengan baik, silakan kunjungi pusat layanan kami. Masalah ini bisa disebabkan oleh berbagai faktor, baik fisik maupun perangkat lunak."
+            "responses": [
+                "MI Attaqwa 28 memiliki kebijakan disiplin yang ketat, termasuk datang tepat waktu, berpakaian rapi, dan menghormati guru serta teman.",
+                "Aturan di MI Attaqwa 28 mencakup disiplin waktu, penggunaan seragam yang benar, dan menjaga kebersihan serta ketertiban lingkungan sekolah.",
+                "Kebijakan di MI Attaqwa 28 termasuk aturan disiplin, penggunaan seragam, partisipasi dalam kegiatan keagamaan, dan menjaga lingkungan sekolah."
             ]
         },
         {
-            "tag":"pusat_layanan",
-            "patterns":[
-                "Di mana pusat layanan",
-                "Di mana kita bisa bertemu",
-                "Di mana lokasi Anda",
-                "Di mana saya bisa memperbaiki ponsel saya"
+            "tag": "kesehatan",
+            "patterns": [
+                "Apakah MI Attaqwa memiliki program kesehatan?",
+                "Apakah MI Attaqwa 28 memiliki program kesehatan?",
+                "Bagaimana layanan kesehatan di MI Attaqwa 28?",
+                "Layanan kesehatan MI Attaqwa 28",
+                "Layanan kesehatan MI Attaqwa",
+                "Fasilitas kesehatan MI Attaqwa 28",
+                "Fasilitas kesehatan MI Attaqwa",
+                "Apakah ada fasilitas kesehatan di MI Attaqwa 28?",
+                "Program kesehatan siswa di MI Attaqwa 28",
+                "Apakah ada program kesehatan di MI Attaqwa 28?"
             ],
-            "responses":[
-                "Pusat layanan kami terletak di Jalan ABC, Kota XXX, Provinsi YYY. Kami buka dari pukul 08.00 hingga 22.00 setiap hari. Semua merek ponsel utama dapat diperbaiki di pusat layanan kami. Hubungi kami di +62 XXXXXXXXX atau kunjungi www.abcxyzsample.com"
+            "responses": [
+                "MI Attaqwa 28 memiliki program kesehatan yang mencakup pemeriksaan kesehatan berkala, sosialisasi tentang kebersihan, dan layanan P3K.",
+                "Layanan kesehatan di MI Attaqwa 28 termasuk pemeriksaan kesehatan rutin dan sosialisasi tentang pentingnya kebersihan dan pola hidup sehat.",
+                "MI Attaqwa 28 menyediakan fasilitas kesehatan seperti ruang UKS dan program pemeriksaan kesehatan rutin untuk para siswa."
             ]
         },
         {
-            "tag":"tombol_daya",
-            "patterns":[
-                "Tombol daya saya tidak berfungsi dengan baik",
-                "Tombol daya rusak"
+            "tag": "visi_misi",
+            "patterns": [
+                "Apa Visi dan Misi MI Attaqwa 28?",
+                "Visi dan Misi di MI Attaqwa 28?",
+                "Visi dan Misi dari MI Attaqwa 28",
+                "Visi dan Misi MI Attaqwa 28",
+                "Seperti apa Visi dan Misi MI Attaqwa 28?",
+                "Jelaskan Visi dan Misi MI Attaqwa 28",
+                "Visi dan Misi",
+                "Visi Misi"
             ],
-            "responses":[
-                "Jika tombol daya Anda tidak berfungsi dengan baik, itu masalah kecil yang bisa kami perbaiki dengan mudah. Biaya perbaikan juga sangat rendah."
+            "responses": [
+                "MI Attaqwa memiliki Visi dan Misi sebagai berikut: \n\n *Visi* \n\n Unggul dalam prestasi dan mulia dalam berakhlak \n\n *Misi* \n\n 1. Meningkatkan pembelajaran agama, umum dan aqidah akhlak. \n 2. Menerapkan akhlakul karimah dalam lingkungan sekolah, keluarga dan masyarakat. \n 3. Meningkatkan motivasi dan kreativitas siswa dalam belajar. \n 4. Menyalurkan bakat dan motivasi siswa sesuai dengan potensi yang mereka miliki. \n 5. Membiasakan hidup disiplin dalam belajar, berpakaian, dan keluar sekolah. \n 6. Bertekad untuk meningkatkan dan merealisasikan program sekolah. \n 7. Membekali para siswa dengan ilmu pengetahuan dan teknologi serta iman dan taqwa."
             ]
         },
         {
-            "tag":"tombol_volume",
-            "patterns":[
-                "Tombol volume saya rusak",
-                "Tombol volume tidak berfungsi dengan baik"
+            "tag": "materi_tes_seleksi",
+            "patterns": [
+                "Bagaimana materi dari tes seleksi pendaftaran siswa atau siswi baru?",
+                "Tes seleksi apa saja yang akan dilakukan saat pendaftaran?",
+                "Materi seleksi apa yang akan dibahas saat tes?",
+                "Ada berapa tes seleksi",
+                "Kisi kisi tes seleksi",
+                "Apa saja materi untuk tes seleksi",
+                "Materi tes seleksi",
+                "Materi untuk tes seleksi"
             ],
-            "responses":[
-                "Jika tombol volume Anda tidak berfungsi dengan baik, itu masalah kecil yang bisa kami perbaiki dengan mudah. Biaya perbaikan juga sangat rendah."
+            "responses": [
+                "Materi tes seleksi meliputi kemampuan dasar membaca, menulis, dan berhitung serta pengetahuan dasar agama Islam.",
+                "Tes seleksi terdiri dari beberapa bagian yaitu kemampuan dasar membaca, menulis, berhitung, serta pengetahuan dasar agama Islam.",
+                "Dalam tes seleksi, peserta akan diuji kemampuan dasar mereka dalam membaca, menulis, berhitung, dan juga pemahaman dasar agama Islam.",
+                "Tes seleksi pendaftaran siswa baru meliputi kemampuan dasar seperti membaca, menulis, berhitung, serta pengetahuan dasar agama Islam."
             ]
         },
         {
-            "tag":"pelindung_layar",
-            "patterns":[
-                "Ganti kaca pelindung saya",
-                "Kaca pelindung saya rusak",
-                "Kaca pelindung saya retak"
+            "tag": "penutup",
+            "patterns": [
+                "Terimakasih",
+                "Oke baik terimakasih",
+                "Sampai nanti",
+                "Sampai jumpa",
+                "Terima Kasih"
             ],
-            "responses":[
-                "Kami dapat mengganti kaca pelindung Anda dengan mudah. Silakan bawa perangkat Anda ke pusat layanan kami."
-            ]
-        },
-        {
-            "tag":"case",
-            "patterns":[
-                "Case saya rusak",
-                "Case saya perlu diganti",
-                "Saya butuh case baru"
-            ],
-            "responses":[ 
-                "Kami dapat mengganti case ponsel Anda dengan mudah. Kami memiliki berbagai macam case ponsel yang tersedia di toko kami!"
+            "responses": [
+                "Terimakasih telah menggunakan layanan chatbot MI Attaqwa.",
+                "Terimakasih sudah menggunakan layanan MI Attaqwa",
+                "Sampai nanti, terimakasih sudah menggunakan layanan MI Attaqwa"
             ]
         }
     ]
